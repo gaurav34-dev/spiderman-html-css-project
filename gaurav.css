@@ -1,0 +1,91 @@
+/* external css file for your ------html page*/
+body{
+	max-width:2000px;
+	margin:auto;
+	font-family:Roboto;
+	font-size:22px;
+	color:pink;
+	background-color:red;
+}
+h4{
+	font:italic small-caps bolder 28px arial,sans-serif;
+}
+/* font style:italic
+font variant:small-caps
+font weight:bolder
+font size:28px
+font style:arial  agar arial ni hai toh sans-serif use karna that's y arial,sans-serif likha hai*/
+
+/*id starts with a #
+class starts with a .*/
+
+.left{
+	float:left;
+	padding-right:240px;
+	border:none;
+}
+
+.right{
+	float:right;
+	padding:0px;
+	border:none;
+}
+
+/*#image{
+	padding:10px;
+	border:5px;
+	margin:20px;
+}*/
+/*#image{
+	padding-left:10px;
+	padding-right:2px;
+	padding-top:0px;
+	padding-bottom:0px;
+}*/
+#image{
+	float:left;
+	padding:0px 20px 20px 20px;
+}
+.nav-bar{
+	background:green;
+	text-align:center;
+	font-size:10;
+}
+.nav-bar ul{
+	display:inline-flex;
+	color:white;
+	list-style:none;                                               /*list style:none means no bullets will come circle,square nothing*/;                                          
+}
+.nav-bar ul li{
+	width:150px;
+	margin:1px;
+	padding:1px;
+}
+.nav-bar ul li:hover{
+	background:gray;
+	border-radius:3px;
+}
+.nav-bar ul li a{
+	text-decoration: none;                                         /*no underlining if text decoration is none*/
+	color:white;
+}
+.active{
+	color:blue;
+}
+table{
+	border: 1px solid;
+	width:100%;
+	border-collaspe:collaspe;
+	font-size:20px;
+}
+
+th,td{
+	padding:15px;
+	border:lpx solid #a4a4a4;
+	height:30px;
+}
+
+th{
+	text-align: left;
+	background-color: #ececec;
+}
